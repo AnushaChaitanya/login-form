@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    /* border: 12px solid black; */
+    color: burlywood;
+    top: 24%;
+    left: 30%;
+    position: absolute;
+}
+
+.container h1 {
+    display: inline-block;
+    font-size: 35px;
+    border-bottom: 3px solid rgb(212, 212, 192);
+    margin-bottom: 20px;
+    padding: 11px 0;
+}
+
+.box {
+    width: 100%;
+    margin: 25px 0px;
+    border-bottom: 1.2px solid burlywood;
+    /* border: 1.5px solid rgb(212, 212, 192); */
+
+}
+
+.box input {
+    width: 70%;
+    font-size: 18px;
+    padding: 5px 9px;
+    outline: none;
+    color: wheat;
+    background: none;
+    border: none;
+}
+
+.box i{
+
+    width: 23px; 
+    text-align: center;
+}
+
+.btn {
+    color: aliceblue;
+    cursor: pointer;
+    outline: none;
+    margin: 10px 0;
+    padding: 10px 22px;
+    font-size: 20px;
+    width: 123px;
+    font-weight: bold;
+    border: 2px solid burlywood; 
+    background: none;
+
+}
+
+.btn:hover {
+    color: rgb(255, 186, 96);
+    background: whitesmoke;
+
+}
